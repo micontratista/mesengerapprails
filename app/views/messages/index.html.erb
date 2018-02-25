@@ -1,2 +1,4 @@
-<h1>Este es el index</h1>
- 
+<% @messages.each do |message| %>
+<h2><%= message.title %></h2>
+
+<% end %>
