@@ -1,5 +1,6 @@
 <h2><%= @message.title %></h2>
 <p><%= @message.description %></p>
 
-
+<%= link_to "Volver", root_path %>
 <%= link_to "Editar", edit_message_path(@message) %>
+<%= link_to "Borrar", message_path(@message), method: :delete, data: { confirm: "¿ Estás seguro ?"} %>

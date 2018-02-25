@@ -7,6 +7,7 @@ end
 
 gem 'simple_form', '~> 3.5', '>= 3.5.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'devise', '~> 4.4', '>= 4.4.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
